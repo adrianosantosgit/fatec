@@ -1,0 +1,6 @@
+vscode settings.json
+
+add the folowing settings
+
+"python.analysis.completeFunctionParens": true, 
+"terminal.integrated.lineHeight": 1.5,
