@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+}
+header {
+    background-color: #191970;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+header h1 {
+    text-align: center;
+    font-family: 'Madimi One', 'Tahoma';
+    color: #ffffff;
+    padding-top: 3vh;
+}
+nav {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Robot', 'Tahoma';
+}
+nav a {
+    padding: 1%;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    padding-bottom: 0.4em;
+    border-bottom: #00bfff;
+    font-weight: bold;
+}
+footer {
+    background-color: #191970;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

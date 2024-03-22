@@ -15,7 +15,6 @@
     text-align: center;
     padding-top: 20px;
     font-family: 'Madimi One','Tahoma'; 
-    font-size: 6vh;
 }
 
 #menu{
@@ -31,6 +30,12 @@
     padding: 1%;
 }
 
+#menu li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: inherit;
+}
+
 #menu li:hover{
     /* background-color: #00bfff; */
     padding-bottom: 0.4em;
@@ -38,7 +43,7 @@
     font-weight: bold;
 }
 
-#menu, #content{
+#menu, #content, #footer{
     font-family: 'Roboto';
 }
 
@@ -58,6 +63,7 @@
 
 #content p{
     padding: 1%;
+    text-align: justify;
 }
 
 #footer{
@@ -73,8 +79,4 @@
 h2 {
     text-align: center;
     padding: 2%;
-}
-a {
-    color: white;
-    font-weight: bold;
 }
