@@ -15,7 +15,7 @@
     text-align: center;
     padding-top: 20px;
     font-family: 'Madimi One','Tahoma'; 
-    font-size: 3vw;
+    font-size: 6vh;
 }
 
 #menu{
@@ -64,8 +64,10 @@
     background-color: #191970;
     width: 100%;
     height: fit-content;
-    color: #ffffff;
+}
+#footer p{
     text-align: center;
+    color: #ffffff;
     padding: 1%;
 }
 h2 {
