@@ -1,0 +1,34 @@
+pacote microsoft Sysinternals
+comandos de grandes cópias de arquivos
+
+robocopy > windows
+rsync > linux
+
+comando linux cp [de onde (espaço) para onde]
+
+comando -rf (r ou R de recursevely ou repetidamente e f de force)
+
+comando mv (renomear ou cortar e colar) PERIGO > DEVE TER FEITO CÓPIA ANTES
+
+comando rm (remover)
+touch (criar arquivos)
+
+comando more lista de forma encadeada arquivos em lista
+comando less tem a vantagem de conseguir navegar para frente e para tras na lista de arquivos
+
+comando head lista primeiras 10 linhas de arquivo dentro de pasta
+comando tail lista ultimas 10 linhas de arquivo dentro de pasta
+
+comando wc word count
+comando nl (numerar linhas)
+comando para listar usando cat | less
+comando uniq para buscar repetições
+comando tr (traduzir ou trocar parametro1 por parametro2)
+cat /etc/passwd | tr 'a' 'x' (traduz todos caracteres de a para x em tela)
+tr 'a-z' 'A-Z' </etc/passwd > passed_novo
+redirecionadores para conseguir analizar os resultados em um novo arquivo
+por exemplo
+nl passwd_novo > passwd_novo_numerado
+criou arquivo numerado
+comando man (exibe manual_do_comando)
+
