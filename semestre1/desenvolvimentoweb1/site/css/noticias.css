@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #191970;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: #ffffff;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Madimi One', 'Tahoma';
+    color: #ffffff;
+    padding-top: 3vh;
+}
+nav {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Robot', 'Tahoma';
+}
+nav a {
+    padding: 1%;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    padding-bottom: 0.4em;
+    border-bottom: #00bfff;
+    font-weight: bold;
+}
+main {
+    padding-top: 150px;
+    /* border: 0.1em solid #000; */
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#manchete {
+    grid-column: 1/4;
+    background-color: #00bfff;
+    min-height: 300px;
+    display: flex;
+    padding: 1%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 1em 1em rgba(0,0,0,0.1);
+    border-radius: 1%;
+}
+
+.corpo_manchete {
+width: 40%;
+padding: 1%;
+}
+
+.corpo_manchete h2 {
+    text-align: center;
+    font-size: 2em;
+    line-height: 40px;
+    padding-top: 75px;
+}
+
+.corpo_manchete p {
+    padding: 2%;
+    text-align: center;
+    line-height: 40px;
+}
+.corpo_manchete a {
+    text-decoration: none;
+    color: inherit;
+}
+.corpo_manchete a:hover {
+    text-decoration: underline;
+}
+#manchete img {
+    width: auto;
+}
+
+#news {
+    grid-column: 1/4;
+    /* background-color: #ccff00; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+article {
+    width: 31,33%;
+    padding: 1%;
+    min-height: 250px;
+}
+
+#noticia1 {background-color: #f00;}
+#noticia2 {background-color: #0f0;}
+#noticia3 {background-color: #00f;}
+
+footer {
+    background-color: #191970;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    padding: 17px 0;
+}

@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+  
+    display: grid;
+  
+    grid-template-columns: 1.5fr 8fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-areas: 
+     'header header'
+     'aside main'
+     'footer footer'
+    ;
+  }
+  header {
+    background-color: greenyellow;
+    grid-area: header;
+  }
+  aside {
+    background-color: blue;
+    grid-area: aside;
+  }
+  main {
+    background-color: red;
+    grid-area: main;
+  }
+  .hero {
+    height: 90vh;
+    width: 100vw;
+    background-color: violet;
+  }
+  .info {
+    height: 90vh;
+    display: grid;
+  
+    grid-template-columns: repeat(2, 1fr);
+  
+    grid-template-areas:
+    'img description'
+    ;
+  }
+  .img {
+    grid-area: img;
+    background-color: red;
+  }
+  .description {
+    grid-area: description;
+    background-color: aqua;
+  }
+  footer {
+    background-color: gray;
+    grid-area: footer;
+  }
+  button {
+    cursor: pointer;
+  }

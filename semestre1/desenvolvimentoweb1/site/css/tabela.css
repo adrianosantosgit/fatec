@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+main{
+    display: block;
+}
+#tabela{
+width: 100%;
+font-size: 1.5em;
+}
+#tabela, #tabela th, tabela td {
+    border: 0.1em solid #f00;
+    border-collapse: collapse;
+}
+#tabela thead{
+    background-color: #f00;
+    color: #fafafa;
+}
+#tabela td {
+    text-align: center;
+}
+#tabela td:nth-child(1){
+    text-align: left;
+}
+#tabela tbody tr:nth-child(even){
+    background-color: #FF7F50;
+}
+#tabela tfoot {
+    background-color: aquamarine;
+}
