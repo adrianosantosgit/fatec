@@ -1,0 +1,24 @@
+https://readme.so/editor
+Ferramenta para editar arquivos markdown ".md" utilizados no Github por exemplo
+
+git init > transforma diretorio atual em dir git
+
+git log
+git restore > retorna ao último estado antes das alterações
+
+    --staged // para desfazer alterações já enviadas para área de preparação
+
+git commit --amend -m "aqui insere mensagem corrigida referente ao último commit" 
+
+git commit --amend > desta forma abre editor de texto via terminal onde fechamos usando ESC e depois escrevendo ":w" de write para escrever ou salvar o texto que editamos
+
+git reset
+    --soft + hash do commit
+    --mixed + hash do commit
+    --hard + hash do commit
+
+git push -u (de upstream) origin main 
+
+git pull
+
+
