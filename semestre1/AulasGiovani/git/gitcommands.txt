@@ -1,9 +1,12 @@
 https://readme.so/editor
 Ferramenta para editar arquivos markdown ".md" utilizados no Github por exemplo
 
+git-scm.com/docs
+
 git init > transforma diretorio atual em dir git
 
-git log
+git log // exibe log de alterações
+
 git restore > retorna ao último estado antes das alterações
 
     --staged // para desfazer alterações já enviadas para área de preparação
@@ -21,4 +24,41 @@ git push -u (de upstream) origin main
 
 git pull
 
+echo "mensagem" > arquivo ou arquivo.txt // imprime mensagem na tela/terminal
+
+git checkout -b "nome_da_nova_branch" // cria e vai para nome_da_nova_branch
+
+git checkout "nome_da_branch" // vai para nome_da_branch
+
+git branch // exibe as branches do repositorio atual
+
+git branch -v // exibe últimos commits de cada branch do repositorio atual
+
+git merge "nome_da_branch" // mescla "nome_da_branch" com a branch atual
+
+git branch -d "nome_da_branch" // deleta/exclui a branch indicada e exibe uma linha de confirmação da operação
+
+git pull // = git fetch (baixa as alterações) + git merge (mescla as alterações)
+
+git fetch origin main // baixa as alterações presentes no remoto
+
+git diff main origin/main // mostra as diferenças entre o remoto e o local
+
+git merge origin/main // mescla as alterações
+
+git clone "http://url-do-repositorio.git" --branch "nome_da_branch" --single-branch // faz clone apenas da branch desejada
+
+git stash // armazena estado de alterações
+
+git stash list
+
+git stash pop // carrega alterações exluindo última (pop)
+
+git stash apply // mantem alterações para uso posterior
+
+git-scm.com/docs
+
+https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
+
+// mais exemplos de possiveis situacoes de historico entre branches
 
