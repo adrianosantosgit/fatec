@@ -1,0 +1,34 @@
+Javascript
+DOM(document object model)
+manipulação por ID
+
+DOM é um objeto e tratado como arquivo
+
+Typecript para tipar fortemente Javascript
+auxilia a não errar
+
+Jquery library
+
+Media Query CSS ()
+
+Breakpoints CSS 
+
+Código sincrono ou assincrono 
+sincrono executa sequencialmente
+assincrono executa todo código por completo ao mesmo tempo, normalmente se aplica as APIS e JSON
+
+Promisse resolve or reject
+
+Requisições HTTP
+GET
+POST
+PUT/PATCH/UPDATE
+DELETE
+
+CRUD CREATE READ UPDATE DELETE
+
+Requisições FETCH
+
+POKE API api pokemon mais usada para exercicio
+
+

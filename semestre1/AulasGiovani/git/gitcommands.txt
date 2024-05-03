@@ -62,3 +62,5 @@ https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
 
 // mais exemplos de possiveis situacoes de historico entre branches
 
+gitfluence.com // IA para auxiliar em comandos git
+myoctocat.com // personalizar o mascote do Github
