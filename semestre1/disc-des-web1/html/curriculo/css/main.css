@@ -1,0 +1,33 @@
+#main {
+    margin: 0 auto;/* comentário */
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h1 {
+    text-align: center;
+}
+#dados-contato, #foto{
+    float: left;
+}
+#dados-contato {
+    width: 70%;
+}
+#foto {
+    width: 30%;
+    text-align: right;
+}
+#foto img{
+    width: 50%;
+    
+}
+#formacao {
+    clear: left;/*para fechar ambos usamos both*/
+}
+ul {
+color: #0000FF;
+}
+.subtitulo-formacao {
+background-color: #ffff00;
+padding: 1% 1% 1% 12%;
+}
