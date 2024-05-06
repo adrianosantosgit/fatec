@@ -64,3 +64,18 @@ https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
 
 gitfluence.com // IA para auxiliar em comandos git
 myoctocat.com // personalizar o mascote do Github
+CONTRIBUTING.md // arquivo para descrever as diretrizes de contribuição de um projeto
+
+//adicionar setting upstream a um repositorio que estamos fazendo um fork para este acompanhar mudanças no repo original
+git remote add upstream "url-repo-orginal"
+
+git remote -v // mostra versões do repo
+
+git checkout -b feat/community/"my-user-name" // usado por convenção para referenciar contribuidor da feature
+
+//common commit message types; docs: feat: 
+//ISSUES
+//fazendo commit update "arquivo-da-issue" fix #num-da-issue
+
+//PULL REQUEST
+//requer fork do repositorio para ser feito

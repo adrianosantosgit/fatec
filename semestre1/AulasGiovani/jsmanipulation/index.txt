@@ -1,0 +1,27 @@
+vetor = array
+
+vetor multi dimensional = matriz
+
+for (){
+
+}
+
+list.forEach (() => {
+
+})
+
+for e forEach nao tem retorno
+
+(`${variavel} texto ${variavel} `)
+template string // string usando crase para receber variaveis dentro da string
+template literals
+
+{} curly braces na criaçao de um array faz itens serem transformados em objeto (chave:valor)
+
+//map itera e permite retorno; quando usando arrow function => o retorno é implicito
+
+array.map((paramter1, paramter2) => `output`)
+
+viacep API
+
+
