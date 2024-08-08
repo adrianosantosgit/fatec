@@ -1,0 +1,6 @@
+LAN - local area network
+WLAN - wireless LAN
+PAN - personal LAN
+WAN - wired area network
+MAN - metropolitan area network
+

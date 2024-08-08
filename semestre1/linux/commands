@@ -35,3 +35,22 @@ comando man (exibe manual_do_comando)
 sudo snap install --classic code
 
 comando > gera arquivo de saida com resultado do comando anterior
+
+vi > editor de textos
+
+chmod > 
+chown > change owner 
+chgrp > change group
+
+comando -p // para criar os diretorios de dependencias para um arquivo em criação
+
+chmod -R 660 ../docs/ // permissao rw-rw---- de forma recursiva para todos arquivos do diretório
+
+rwx -> 7
+rw- -> 6
+r-- -> 5
+-wx -> 4
+--x -> 3
+-> 2
+->1
+--- -> 0
