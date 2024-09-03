@@ -43,6 +43,7 @@ class Queue {
         }
         return this.items[this.lowestCount];
     }
+
     // Método para inverter os elementos da fila
     reverse() {
         let stack = [];
@@ -53,22 +54,64 @@ class Queue {
             this.enqueue(stack.pop());
         }
     }
+
 }
 
-let fila = new Queue();
-console.log(fila.isEmpty());
+let fila = new Queue;
 
-fila.enqueue('Jack');
-fila.enqueue('John');
+// Populando a fila com números de 1 a 20
+for (let i = 1; i <= 10; i++) {
+    fila.enqueue(i);
+}
 
-console.log(fila.toString());
+console.log(fila.items);
 
-fila.enqueue('Camila');
+// Criando uma nova fila
+let alfabeto = new Queue();
 
-console.log(fila.toString());
+// Lista das palavras do alfabeto fonético em ordem alfabética
+const alfabetoFonetico = [
+    "", "Alfa", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel",     "India", "Juliett", "Kilo", "Lima", "Mike", "November", "Oscar", "Papa",     "Quebec", "Romeo", "Sierra", "Tango", "Uniform", "Victor", "Whiskey",     "X-ray", "Yankee", "Zulu"];
+// const alfabetoFonetico = [
+//     "", "Alfa"];
+
+// Populando a fila com as palavras do alfabeto fonético
+alfabetoFonetico.forEach(word => alfabeto.enqueue(word));
+
+console.log(alfabeto.items);
+
+// Criando uma nova fila
+let nomes = new Queue();
+
+// Lista de nomes masculinos e femininos em inglês americano
+const nomesAlfabeticos = [
+    "", "Alexander", "Benjamin", "Christopher", "Daniel", "Ethan", "Finn", "Gabriel", "Henry", "Isaac", "James", "Kevin", "Liam", "Michael", "Noah", "Oliver", "Patrick", "Quentin", "Ryan", "Samuel", "Thomas", "Uriel", "Victor", "William", "Xavier", "Yosef", "Zachary", "Amelia", "Bella", "Charlotte", "Daisy", "Emma", "Fiona", "Grace", "Hannah", "Isabella", "Julia", "Katherine", "Lily", "Mia", "Natalie", "Olivia", "Penelope", "Quinn", "Ruby", "Sophia", "Taylor", "Uma", "Victoria", "Willow", "Ximena", "Yara", "Zoe"];
+
+// Populando a fila com os nomes
+nomesAlfabeticos.forEach(nome => nomes.enqueue(nome));
+
+console.log(nomes.items);
+
+let vazia = new Queue;
+
+vazia.dequeue();
+
+nomes.toString();
+
+let teste = new Queue();
+console.log(teste.isEmpty());
+
+teste.enqueue('Jack');
+teste.enqueue('John');
+
+console.log(teste.toString());
+
+teste.enqueue('Camila');
+
+console.log(teste.toString());
+
 
 // Exercicio universidade Ouro Preto // escreva uma função que inverta a ordem dos elementos da fila
-// A fila F já possui elementos
 let F = new Queue;
 console.log(F.isEmpty());
 // Populando a fila com números de 1 a 10
@@ -77,7 +120,6 @@ for (let i = 1; i <= 10; i++) {
 }
 console.log(F.toString());
 
-// A fila P deve iniciar vazia, sem elementos e receber os elementos de F em ordem inversa
 let P = new Queue;
 console.log('P vazio? ' + P.isEmpty());
 // Aplica a reversão do conjunto contido na fila F
@@ -85,3 +127,5 @@ F.reverse();
 //Implementa enfileirar em P
 P.enqueue(F);
 console.log(P.toString());
+
+
