@@ -19,16 +19,16 @@ for (let i = 0; i < A.length; i++) {
 }
 
 // Adiciona os elementos de B em U, se não estiverem já presentes
-for (let j = 0; j < B.length; j++) {
+for (let i = 0; i < B.length; i++) {
     let encontrado = false;
-    for (let k = 0; k < U.length; k++) {
-        if (B[j] === U[k]) {
+    for (let j = 0; j < U.length; j++) {
+        if (B[i] === U[j]) {
             encontrado = true;
             break;
         }
     }
     if (!encontrado) {
-        U.push(B[j]);
+        U.push(B[i]);
     }
 }
 
@@ -140,7 +140,7 @@ console.log(DAB);
 console.log(`Tamanho do conjunto I = ${DAB.length}`);
 
 imprimirConjuntosAB();
-console.log(`Conjunto DAB ou diferença de A - B = `);
+console.log(`Conjunto DAB ou diferença de B - A = `);
 console.log(DBA);
 console.log(`Tamanho do conjunto I = ${DBA.length}`);
 
